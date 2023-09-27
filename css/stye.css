@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+:root{
+	--hColor: #4f4f4f;
+	--gray: #8b8b8b;
+
+}
+
+html,body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header_top{
+	background: #fff;
+	height: 70px;
+	width: 100%;
+}
+
+/*-- banner --*/
+#banner{
+	width: 100%;
+	height: 450px;
+	background-image: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.notifi{
+	padding: 30px 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.balace{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.balace h2{
+	color: white;
+	font-size: 36px;
+}
+
+.balace h1{
+	color: white;
+	font-size: 87px;
+}
+
+@media(max-width: 750px){
+	#banner{
+		height: 360px;
+	}
+
+	.each_trns{
+		margin-bottom: 50px; 
+	}
+
+	.balace h2{
+		font-size: 25px;
+	}
+	.balace h1{
+		font-size: 40px;
+	}
+}
+
+
+
+#transaction{
+	margin-top: -80px;
+}
+
+.each_trns{
+	background-color: #fff;
+	box-shadow: 10px 10px 20px #b2b2b2ed;
+	height: 160px;
+	border-radius: 10px;
+}
+
+.trans_icon{
+	width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 14px #4d4d4dcc;
+    position: absolute;
+    top: -20px;
+    right: -3px;
+    border-radius: 100%;
+    background: #fff;
+}
+
+
+.trans_icon img{
+	padding: 9px;
+}
+
+/*-- banner X --*/
+
+/*-- History--*/
+#history{
+	padding-top: 160px;
+}
+
+.his_sec_title{
+	margin-bottom: 70px;
+}
+
+.his_sec_title h1{
+	color: var(--hColor);
+}
+
+.his_cover{
+	display: flex;
+	margin-bottom: 45px;
+}
+
+.his_img{
+	width: 93px;
+	height: 93px;
+	margin-right:50px;
+	border-radius: 100%;
+	background: #f95c5c;
+}
+
+.his_img img{
+	margin: 30px;
+}
+
+.his_txt{
+	width: 100%;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #f1f1f1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.trans_value h3{
+	margin-right: 30px;
+}
+
+.request-icon{
+	background: #26b99a;
+}
+
+.add-icon{
+	background: #5c97f9;
+}
+/*-- History X --*/
+
